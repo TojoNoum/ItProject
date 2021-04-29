@@ -1,0 +1,26 @@
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.paragraph1 {
+	background-color: rgba(181, 35, 5,0.6); padding:20px 0 20px 10px; position: relative; bottom: 12.8%; z-index: 4;
+}
+#yes .col{
+	border:1px solid green;
+	border-radius: 7px;
+	box-shadow: 0px 10px 7px;
+}
+.ewa{
+	border:2px solid black;
+}
+@media all and (max-width: 1024px){
+		.paragraph1{
+			bottom: 16%;
+		}
+}
+@media all and (max-width: 768px){
+		.paragraph1{
+			display: none;
+		}
+}
